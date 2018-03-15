@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Dekode">
+	<description>Dekode Coding Standards</description>
+	
+	<!-- Arguments: colors, show progress and show sniff name. -->
+	<arg name="colors" />
+	<arg value="ps" />
+	
+	<!-- Rules -->
+	<rule ref="WordPress" />
+	<rule ref="PHPCompatibility" />
+	<rule ref="Generic.Arrays.DisallowLongArraySyntax.Found" />
+</ruleset>

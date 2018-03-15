@@ -1,2 +1,1 @@
-# coding-standards
-Dekode coding standards
+# Dedkode Coding Standards
