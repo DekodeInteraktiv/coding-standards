@@ -1,7 +1,9 @@
 # Changelog
 
-## Unreleased
-* Only check `.php` files
+## 0.3.0
+* Require strict type
+* Require type hints
+* Removed php7.0 as testVersion. Need to set it in your config
 
 ## 0.2.0
 * Changed composer type to `phpcodesniffer-standard`.
