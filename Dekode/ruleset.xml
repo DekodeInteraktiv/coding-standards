@@ -6,7 +6,6 @@
 	<arg name="colors" />
 	<arg value="ps" />
 	<arg name="extensions" value="php" />
-	<file>.</file>
 	
 	<!-- Exclude files -->
 	<exclude-pattern>./wp/</exclude-pattern>
