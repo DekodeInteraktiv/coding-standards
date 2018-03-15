@@ -9,7 +9,7 @@
 	<!-- Exclude files -->
 	<exclude-pattern>./wp/</exclude-pattern>
 	<exclude-pattern>./vendor/</exclude-pattern>
-	<exclude-pattern>*content/plugins/</exclude-pattern>
+	<exclude-pattern>./*content/plugins/</exclude-pattern>
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
 	
 	<!-- Rules -->
