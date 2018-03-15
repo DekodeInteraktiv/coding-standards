@@ -1,7 +1,7 @@
 {
     "name": "dekodeinteraktiv/coding-standards",
     "description": "Dekode Coding Standards",
-    "type": "project",
+    "type": "phpcodesniffer-standard",
     "require": {
         "wp-coding-standards/wpcs": "^0.14.1",
         "squizlabs/php_codesniffer": "^3.2",
