@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+* Only check `.php` files
+
 ## 0.2.0
 * Changed composer type to `phpcodesniffer-standard`.
 * Added php7.0 as testVersion.
