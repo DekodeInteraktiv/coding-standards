@@ -5,6 +5,13 @@
 	<!-- Arguments: colors, show progress and show sniff name. -->
 	<arg name="colors" />
 	<arg value="ps" />
+	<file>.</file>
+	
+	<!-- Exclude files -->
+	<exclude-pattern>./wp/</exclude-pattern>
+	<exclude-pattern>./vendor/</exclude-pattern>
+	<exclude-pattern>./content/plugins/</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
 	
 	<!-- PHP 7.0 and higher. -->
 	<config name="testVersion" value="7.0-" />
