@@ -5,7 +5,8 @@
     "require": {
         "wp-coding-standards/wpcs": "^0.14.1",
         "wimg/php-compatibility": "^8.1",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4"
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+        "automattic/phpcs-neutron-standard": "^1.4"
     },
     "license": "MIT"
 }
