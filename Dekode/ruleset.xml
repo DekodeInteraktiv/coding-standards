@@ -2,7 +2,7 @@
 <ruleset name="Dekode">
 	<description>Dekode Coding Standards</description>
 	
-	<!-- Arguments: colors, show progress, show sniff name, check only php files. -->
+	<!-- Arguments: colors, show progress and show sniff name. -->
 	<arg name="colors" />
 	<arg value="ps" />
 	
