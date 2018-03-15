@@ -5,16 +5,12 @@
 	<!-- Arguments: colors, show progress, show sniff name, check only php files. -->
 	<arg name="colors" />
 	<arg value="ps" />
-	<arg name="extensions" value="php" />
 	
 	<!-- Exclude files -->
 	<exclude-pattern>./wp/</exclude-pattern>
 	<exclude-pattern>./vendor/</exclude-pattern>
 	<exclude-pattern>./content/plugins/</exclude-pattern>
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
-	
-	<!-- PHP 7.0 and higher. -->
-	<config name="testVersion" value="7.0-" />
 	
 	<!-- Rules -->
 	<rule ref="WordPress" />
