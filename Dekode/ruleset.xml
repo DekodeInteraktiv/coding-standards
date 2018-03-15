@@ -6,6 +6,9 @@
 	<arg name="colors" />
 	<arg value="ps" />
 	
+	<!-- PHP 7.0 and higher. -->
+	<config name="testVersion" value="7.0-" />
+	
 	<!-- Rules -->
 	<rule ref="WordPress" />
 	<rule ref="PHPCompatibility" />
