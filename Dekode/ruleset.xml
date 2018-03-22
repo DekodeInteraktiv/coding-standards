@@ -13,7 +13,11 @@
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
 	
 	<!-- Rules -->
-	<rule ref="WordPress" />
+	<rule ref="WordPress">
+		<properties>
+			<property name="additionalWordDelimiters" value="/" />
+		</properties>
+	</rule>
 	<rule ref="PHPCompatibility" />
 	<rule ref="Generic.Arrays.DisallowLongArraySyntax.Found" />
 	<rule ref="NeutronStandard.StrictTypes.RequireStrictTypes.StrictTypes" />
