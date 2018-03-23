@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.1
+* Allow slash in hook names
+
 ## 0.3.0
 * Require strict type
 * Require type hints
