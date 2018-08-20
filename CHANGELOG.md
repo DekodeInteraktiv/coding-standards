@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0
+* WordPress Coding Standards for PHP_CodeSniffer 1.0
+* PHP Compatibility Coding Standard for PHP CodeSniffer 8.2
+* Neutron PHP Standard 1.5
+
 ## 0.3.1
 * Allow slash in hook names
 
