@@ -18,7 +18,7 @@
 			<property name="additionalWordDelimiters" value="/" />
 		</properties>
 	</rule>
-	<rule ref="PHPCompatibility" />
+	<rule ref="PHPCompatibilityWP" />
 	<rule ref="Generic.Arrays.DisallowLongArraySyntax.Found" />
 	<rule ref="NeutronStandard.StrictTypes.RequireStrictTypes.StrictTypes" />
 	<rule ref="NeutronStandard.Functions.TypeHint.NoReturnType" />
