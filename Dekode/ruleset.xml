@@ -13,9 +13,10 @@
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
 	
 	<!-- Rules -->
-	<rule ref="WordPress">
+	<rule ref="WordPress"/>
+	<rule ref="WordPress.NamingConventions.ValidHookName">
 		<properties>
-			<property name="additionalWordDelimiters" value="/" />
+			<property name="additionalWordDelimiters" value="/"/>
 		</properties>
 	</rule>
 	<rule ref="PHPCompatibilityWP" />
