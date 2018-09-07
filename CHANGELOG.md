@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.0
+* Replace `wimg/php-compatibility` with `phpcompatibility/phpcompatibility-wp`. (Cheers @jrfnl! [PR #4](https://github.com/DekodeInteraktiv/coding-standards/pull/4))
+
 ## 1.0.0
 * WordPress Coding Standards for PHP_CodeSniffer 1.0
 * PHP Compatibility Coding Standard for PHP CodeSniffer 8.2
