@@ -13,7 +13,9 @@
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
 	
 	<!-- Rules -->
-	<rule ref="WordPress"/>
+	<rule ref="WordPress">
+		<exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
+	</rule>
 	<rule ref="WordPress.NamingConventions.ValidHookName">
 		<properties>
 			<property name="additionalWordDelimiters" value="/" />
