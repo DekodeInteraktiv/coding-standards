@@ -15,6 +15,9 @@
 	<!-- Rules -->
 	<rule ref="WordPress">
 		<exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
+		<exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine" />
+		<exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket" />
+		<exclude name="PEAR.Functions.FunctionCallSignature.MultipleArguments" />
 	</rule>
 	<rule ref="WordPress.NamingConventions.ValidHookName">
 		<properties>
