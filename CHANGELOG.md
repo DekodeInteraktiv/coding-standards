@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+* Allow `file_get_contents`
+* Remove rule: `PEAR.Functions.FunctionCallSignature.CloseBracketLine`
+* Remove rule: `PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket`
+* Remove rule: `PEAR.Functions.FunctionCallSignature.MultipleArguments`
+
 ## 1.1.0
 * Replace `wimg/php-compatibility` with `phpcompatibility/phpcompatibility-wp`. (Cheers @jrfnl! [PR #4](https://github.com/DekodeInteraktiv/coding-standards/pull/4))
 
