@@ -4,7 +4,7 @@
     "type": "phpcodesniffer-standard",
     "require": {
         "wp-coding-standards/wpcs": "^1.0",
-        "phpcompatibility/phpcompatibility-wp": "^1.0",
+        "phpcompatibility/phpcompatibility-wp": "^2.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
         "automattic/phpcs-neutron-standard": "^1.5"
     },
