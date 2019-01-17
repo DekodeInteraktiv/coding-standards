@@ -3,7 +3,7 @@
     "description": "Dekode Coding Standards",
     "type": "phpcodesniffer-standard",
     "require": {
-        "wp-coding-standards/wpcs": "^1.0",
+        "wp-coding-standards/wpcs": "^2.0",
         "phpcompatibility/phpcompatibility-wp": "^2.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
         "automattic/phpcs-neutron-standard": "^1.5"
