@@ -3,10 +3,10 @@
     "description": "Dekode Coding Standards",
     "type": "phpcodesniffer-standard",
     "require": {
-        "wp-coding-standards/wpcs": "^2.0",
-        "phpcompatibility/phpcompatibility-wp": "^2.0",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
-        "automattic/phpcs-neutron-standard": "^1.5"
+        "wp-coding-standards/wpcs": "^2.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
+        "automattic/phpcs-neutron-standard": "^1.6"
     },
     "license": "MIT"
 }

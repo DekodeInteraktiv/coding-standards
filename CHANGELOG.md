@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.2.0
+* Updated dependencies.
+
 ## 3.1.0
 * Exclude `Generic.Arrays.DisallowShortArraySyntax` and `WordPress.PHP.DisallowShortTernary.Found` introduced in [WPCS 2.2.0](https://github.com/WordPress/WordPress-Coding-Standards/releases/tag/2.2.0).
 
