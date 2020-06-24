@@ -1,0 +1,40 @@
+{
+	"name": "@dekode/eslint-plugin",
+	"publishConfig": {
+		"access": "public"
+	},
+	"version": "0.0.1",
+	"description": "Dekodes's ESLint plugin, following our styleguide",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DekodeInteraktiv/coding-standards"
+	},
+	"bugs": {
+		"url": "https://github.com/DekodeInteraktiv/coding-standards/issues"
+	},
+	"homepage": "https://github.com/DekodeInteraktiv/coding-standards",
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"find-rules": "eslint-find-rules lib/configs/all.js -u -n -d",
+		"lint": "eslint ."
+	},
+	"peerDependencies": {
+		"eslint": "^7.3.1"
+	},
+	"devDependencies": {
+		"eslint": "7.3.1",
+		"eslint-find-rules": "3.5.0"
+	},
+	"dependencies": {
+		"babel-eslint": "10.1.0",
+		"confusing-browser-globals": "1.0.9",
+		"eslint-plugin-import": "2.21.2",
+		"eslint-plugin-jsx-a11y": "6.3.1",
+		"eslint-plugin-react": "7.20.0",
+		"eslint-plugin-react-hooks": "4.0.4",
+		"merge": "1.2.1"
+	}
+}
