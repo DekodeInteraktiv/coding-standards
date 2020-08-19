@@ -1,5 +1,5 @@
 {
-	"name": "dekodeinteraktiv/coding-standards",
+	"name": "dekode/coding-standards",
 	"description": "Dekode Coding Standards",
 	"type": "phpcodesniffer-standard",
 	"require": {
