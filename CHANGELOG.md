@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.4.0
+* Renamed composer package to dekode/coding-standards.
+
 ## 3.3.0
 * Remove exclusion of content/plugins folder. [PR #15](https://github.com/DekodeInteraktiv/coding-standards/pull/15)
 
