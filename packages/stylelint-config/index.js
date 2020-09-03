@@ -64,7 +64,8 @@ module.exports = {
 		indentation: 'tab',
 		'keyframe-declaration-no-important': true,
 		'length-zero-no-unit': true,
-		'max-empty-lines': 2,
+		'linebreaks': 'unix',
+		'max-empty-lines': 1,
 		'max-line-length': [
 			80,
 			{
@@ -85,6 +86,7 @@ module.exports = {
 		'no-descending-specificity': true,
 		'no-duplicate-at-import-rules': true,
 		'no-duplicate-selectors': true,
+		'no-empty-first-line': true,
 		'no-empty-source': true,
 		'no-eol-whitespace': true,
 		'no-extra-semicolons': true,
