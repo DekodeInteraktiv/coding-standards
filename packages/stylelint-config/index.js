@@ -37,7 +37,7 @@ module.exports = {
 		'declaration-colon-space-after': 'always-single-line',
 		'declaration-colon-space-before': 'never',
 		'declaration-block-no-shorthand-property-overrides': true,
-		'declaration-property-unit-whitelist': {
+		'declaration-property-unit-allowed-list': {
 			'line-height': [ 'px' ],
 		},
 		'font-family-name-quotes': 'always-where-recommended',
