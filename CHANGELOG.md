@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.0.0
+* Add support for Composer 2.
+
 ## 3.4.0
 * Renamed composer package to dekode/coding-standards.
 
