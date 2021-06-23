@@ -1,0 +1,36 @@
+version: 2
+registries:
+  composer-repository-packages-dekodes-no:
+    type: composer-repository
+    url: https://packages.dekodes.no
+    username: dependabot
+    password: "${{secrets.COMPOSER_REPOSITORY_PACKAGES_DEKODES_NO_PASSWORD}}"
+  composer-repository-my-yoast-com:
+    type: composer-repository
+    url: https://my.yoast.com
+    username: token
+    password: "${{secrets.COMPOSER_REPOSITORY_MY_YOAST_COM_PASSWORD}}"
+  composer-repository-composer-dekodes-no:
+    type: composer-repository
+    url: https://composer.dekodes.no
+    username: dekodepackages
+    password: "${{secrets.COMPOSER_REPOSITORY_COMPOSER_DEKODES_NO_PASSWORD}}"
+  composer-repository-composer-nisje-io:
+    type: composer-repository
+    url: https://composer.nisje.io
+    username: nisjepackages
+    password: "${{secrets.COMPOSER_REPOSITORY_COMPOSER_NISJE_IO_PASSWORD}}"
+
+updates:
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: daily
+    timezone: Europe/Oslo
+  open-pull-requests-limit: 99
+  rebase-strategy: disabled
+  registries:
+  - composer-repository-packages-dekodes-no
+  - composer-repository-my-yoast-com
+  - composer-repository-composer-dekodes-no
+  - composer-repository-composer-nisje-io
