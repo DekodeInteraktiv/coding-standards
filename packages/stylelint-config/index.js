@@ -46,7 +46,6 @@ module.exports = {
 		'font-weight-notation': [ 'numeric', {
 			ignore: [ 'relative' ],
 		} ],
-		'function-calc-no-invalid': true,
 		'function-calc-no-unspaced-operator': true,
 		'function-comma-space-after': 'always',
 		'function-comma-space-before': 'never',
