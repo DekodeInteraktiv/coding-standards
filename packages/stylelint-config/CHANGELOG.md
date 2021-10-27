@@ -1,4 +1,4 @@
-## [Unreleased]
+# Unreleased
 - Support Stylelint 14.
 - Remove `function-calc-no-invalid` rule. This rule was [removed in Stylelint 14](https://stylelint.io/migration-guide/to-14/#function-calc-no-invalid-rule).
 
