@@ -2,6 +2,19 @@
 	"name": "dekode/coding-standards",
 	"description": "Dekode Coding Standards",
 	"type": "phpcodesniffer-standard",
+	"keywords": [
+        "phpcs",
+        "standards",
+        "static analysis",
+        "code standards",
+        "code style",
+        "coding standards",
+        "coding style",
+        "PHP standards",
+        "WordPress",
+        "WordPress standards",
+        "DekodeInteraktiv"
+    ],
 	"require": {
 		"wp-coding-standards/wpcs": "^2.3",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
