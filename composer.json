@@ -11,5 +11,10 @@
 	"license": "MIT",
 	"archive": {
 		"exclude": [ "/packages" ]
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
 	}
 }
