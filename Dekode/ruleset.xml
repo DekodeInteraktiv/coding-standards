@@ -36,7 +36,4 @@
 
 	<rule ref="PHPCompatibilityWP" />
 	<rule ref="Generic.Arrays.DisallowLongArraySyntax.Found" />
-	<rule ref="NeutronStandard.StrictTypes.RequireStrictTypes.StrictTypes" />
-	<rule ref="NeutronStandard.Functions.TypeHint.NoReturnType" />
-	<rule ref="NeutronStandard.Functions.TypeHint.NoArgumentType" />
 </ruleset>
