@@ -13,7 +13,6 @@
 	<exclude-pattern>build/</exclude-pattern>
 	<exclude-pattern>dist/</exclude-pattern>
 	<exclude-pattern>public/content</exclude-pattern>
-	<exclude-pattern>uploads/</exclude-pattern>
 
 	<!-- Rules -->
 	<rule ref="WordPress">
