@@ -11,14 +11,17 @@
 	<exclude-pattern>vendor/</exclude-pattern>
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
 	<exclude-pattern>build/</exclude-pattern>
+	<exclude-pattern>dist/</exclude-pattern>
 	<exclude-pattern>public/content</exclude-pattern>
 
 	<!-- Rules -->
 	<rule ref="WordPress">
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax" />
 		<exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine" />
 		<exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket" />
 		<exclude name="PEAR.Functions.FunctionCallSignature.MultipleArguments" />
-		<exclude name="Generic.Arrays.DisallowShortArraySyntax" />
+		<exclude name="Universal.Arrays.DisallowShortArraySyntax.Found" />
+		<exclude name="Universal.Operators.DisallowShortTernary.Found" />
 		<exclude name="WordPress.PHP.DisallowShortTernary.Found" />
 	</rule>
 
