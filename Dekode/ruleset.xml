@@ -7,13 +7,13 @@
 	<arg value="ps" />
 
 	<!-- Exclude files -->
-	<exclude-pattern>build</exclude-pattern>
-	<exclude-pattern>dist</exclude-pattern>
-	<exclude-pattern>node_modules</exclude-pattern>
+	<exclude-pattern>wp/</exclude-pattern>
+	<exclude-pattern>vendor/</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>build/</exclude-pattern>
+	<exclude-pattern>dist/</exclude-pattern>
 	<exclude-pattern>public/content</exclude-pattern>
-	<exclude-pattern>uploads</exclude-pattern>
-	<exclude-pattern>vendor</exclude-pattern>
-	<exclude-pattern>wp</exclude-pattern>
+	<exclude-pattern>uploads/</exclude-pattern>
 
 	<!-- Rules -->
 	<rule ref="WordPress">
