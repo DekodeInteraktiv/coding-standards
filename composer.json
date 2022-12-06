@@ -1,33 +1,38 @@
 {
 	"name": "dekode/coding-standards",
 	"description": "Dekode Coding Standards",
+	"license": "MIT",
 	"type": "phpcodesniffer-standard",
 	"keywords": [
-        "phpcs",
-        "standards",
-        "static analysis",
-        "code standards",
-        "code style",
-        "coding standards",
-        "coding style",
-        "PHP standards",
-        "WordPress",
-        "WordPress standards",
-        "DekodeInteraktiv"
-    ],
+		"phpcs",
+		"standards",
+		"static analysis",
+		"code standards",
+		"code style",
+		"coding standards",
+		"coding style",
+		"PHP standards",
+		"WordPress",
+		"WordPress standards",
+		"DekodeInteraktiv"
+	],
 	"require": {
-		"wp-coding-standards/wpcs": "^2.3",
-		"phpcompatibility/phpcompatibility-wp": "^2.1",
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-		"automattic/phpcs-neutron-standard": "^1.6"
+		"phpcompatibility/phpcompatibility-wp": "~2.1.3",
+		"wp-coding-standards/wpcs": "~2.3.0"
 	},
-	"license": "MIT",
+	"require-dev": {
+		"ergebnis/composer-normalize": "^2.29"
+	},
 	"archive": {
-		"exclude": [ "/packages" ]
+		"exclude": [
+			"/packages"
+		]
 	},
 	"config": {
 		"allow-plugins": {
-			"dealerdirect/phpcodesniffer-composer-installer": true
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"ergebnis/composer-normalize": true
 		}
 	}
 }
