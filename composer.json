@@ -17,7 +17,9 @@
 		"DekodeInteraktiv"
 	],
 	"require-dev": {
-		"ergebnis/composer-normalize": "~2.28.3",
+		"ergebnis/composer-normalize": "~2.28.3"
+	},
+		"require": {
 		"wp-coding-standards/wpcs": "^3.0",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.0"
