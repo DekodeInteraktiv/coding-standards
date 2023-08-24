@@ -16,7 +16,7 @@
 		"WordPress standards",
 		"DekodeInteraktiv"
 	],
-	"require-dev": {
+	"require": {
 		"ergebnis/composer-normalize": "~2.28.3",
 		"wp-coding-standards/wpcs": "^3.0",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
