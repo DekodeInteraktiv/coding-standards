@@ -17,10 +17,10 @@
 		"DekodeInteraktiv"
 	],
 	"require": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
 		"ergebnis/composer-normalize": "~2.28.3",
-		"wp-coding-standards/wpcs": "^3.0",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
-		"dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+		"wp-coding-standards/wpcs": "^3.0"
 	},
 	"archive": {
 		"exclude": [
