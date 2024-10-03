@@ -1,5 +1,10 @@
 # Changelog
 
+## 6.1.0
+
+-   Upgrade to WordPress Coding Standards [3.1.0](https://github.com/WordPress/WordPress-Coding-Standards/releases/tag/3.1.0).
+-   Upgrade to PHPCompatibilityWP [2.1.5](https://github.com/PHPCompatibility/PHPCompatibilityWP/releases/tag/2.1.5).
+
 ## 6.0.0
 
 -   Use [WordPress Coding Standards 3.0.0](https://github.com/WordPress/WordPress-Coding-Standards/releases/tag/3.0.0), [#29](https://github.com/DekodeInteraktiv/coding-standards/pull/29)
