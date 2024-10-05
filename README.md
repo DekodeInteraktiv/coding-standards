@@ -2,48 +2,31 @@
 
 ## Installation
 
-Standards can be installed with [Composer](https://getcomposer.org/) dependency manager:
-
 ```
-$ composer require dekode/coding-standards --dev
+$ composer require --dev dekode/coding-standards
 ```
 
-## Usage
-
-### Basic usage
-
-When the package is installed via Composer you can check your files with the
-coding standards via:
+## Add lint script to `composer.json`
 
 ```
-$ vendor/bin/phpcs --standard="Dekode" <path>
+"scripts": {
+  "lint": [
+    "./vendor/bin/phpcs ."
+  ]
+}
 ```
-
-Where `<path>` is at least one file or directory to check, ex `.`.
 
 ### Configuration File
 
-To not have to pass all the arguments to the command line, and also make your
-own project customizations create a `phpcs.xml.dist` file that contains
-something like this:
+Create a `phpcs.xml.dist` file in your project root with the following contents. (Update required PHP version and text_domain accordingly.)
 
 ```xml
 <?xml version="1.0"?>
-<ruleset name="MyProjectCodingStandard">
-    <description>My Project coding standard.</description>
-
-    <file>.</file>
-
-    <!-- Only check .php files -->
-    <arg name="extensions" value="php" />
-
-    <!-- Set required text domain -->
-    <config name="text_domain" value="my-project" />
-
-    <!-- PHP 8.2 and higher. -->
-    <config name="testVersion" value="8.2-" />
-
-    <!-- Rules -->
-    <rule ref="Dekode" />
+<ruleset>
+	<file>.</file>
+	<arg name="extensions" value="php" />
+	<config name="testVersion" value="8.2" />
+	<config name="text_domain" value="block-theme,default" />
+	<rule ref="Dekode" />
 </ruleset>
 ```
