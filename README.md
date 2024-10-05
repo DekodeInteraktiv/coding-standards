@@ -1,14 +1,14 @@
 # Dekode Coding Standards
 
-## Installation
+## Installation and usage
 
-```
+```sh
 $ composer require --dev dekode/coding-standards
 ```
 
-## Add lint script to `composer.json`
+### Add lint script to `composer.json`
 
-```
+```json
 "scripts": {
   "lint": [
     "./vendor/bin/phpcs ."
