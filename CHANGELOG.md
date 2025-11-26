@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.4.0
+
+-   Upgrade to WordPress Coding Standards [3.3.0](https://github.com/WordPress/WordPress-Coding-Standards/releases/tag/3.3.0).
+
 ## 6.3.0
 
 -   Upgrade to WordPress Coding Standards [3.2.0](https://github.com/WordPress/WordPress-Coding-Standards/releases/tag/3.2.0).
