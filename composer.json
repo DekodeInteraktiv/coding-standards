@@ -21,11 +21,6 @@
 		"phpcompatibility/phpcompatibility-wp": "~2.1.7",
 		"wp-coding-standards/wpcs": "~3.3.0"
 	},
-	"archive": {
-		"exclude": [
-			"/packages"
-		]
-	},
 	"config": {
 		"allow-plugins": {
 			"dealerdirect/phpcodesniffer-composer-installer": true
