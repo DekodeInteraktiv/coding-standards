@@ -21,9 +21,6 @@
 		"phpcompatibility/phpcompatibility-wp": "~2.1.7",
 		"wp-coding-standards/wpcs": "~3.3.0"
 	},
-	"require-dev": {
-		"ergebnis/composer-normalize": "~2.48.2"
-	},
 	"archive": {
 		"exclude": [
 			"/packages"
@@ -31,8 +28,7 @@
 	},
 	"config": {
 		"allow-plugins": {
-			"dealerdirect/phpcodesniffer-composer-installer": true,
-			"ergebnis/composer-normalize": true
+			"dealerdirect/phpcodesniffer-composer-installer": true
 		}
 	}
 }
