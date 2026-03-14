@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<ruleset name="DekodeStrict">
-	<description>Dekode Strict Coding Standards — includes the Dekode ruleset with stricter formatting rules.</description>
+<ruleset name="DekodeNoAlignment">
+	<description>Dekode No-Alignment Coding Standards — includes the Dekode ruleset with stricter formatting rules.</description>
 
 	<rule ref="Dekode" />
 
 	<!-- Stricter formatting: disallow two or more consecutive spaces inline. -->
-	<rule ref="DekodeStrict.Formatting.DisallowDoubleSpace" />
+	<rule ref="DekodeNoAlignment.Formatting.DisallowDoubleSpace" />
 
 	<!-- Exclusions -->
 	<rule ref="Generic.Formatting.MultipleStatementAlignment">

@@ -31,11 +31,11 @@ Create a `phpcs.xml.dist` file in your project root with the following contents.
 </ruleset>
 ```
 
-### DekodeStrict ruleset
+### DekodeNoAlignment ruleset
 
-`DekodeStrict` extends `Dekode` with additional strictness. Use it in place of `Dekode` for projects that want tighter formatting enforcement:
+`DekodeNoAlignment` extends `Dekode` with additional strictness. Use it in place of `Dekode` for projects that want tighter formatting enforcement:
 
-- Adds a custom `DekodeStrict.Formatting.DisallowDoubleSpace` sniff: disallows two or more consecutive spaces on a line (outside indentation) — auto-fixable via `phpcbf`
+- Adds a custom `DekodeNoAlignment.Formatting.DisallowDoubleSpace` sniff: disallows two or more consecutive spaces on a line (outside indentation) — auto-fixable via `phpcbf`
 - Suppresses noisy warnings for value-alignment (`MultipleStatementAlignment`, `DoubleArrowNotAligned`)
 - Suppresses `Squiz.Commenting.FunctionComment.SpacingAfterParamType`
 
@@ -46,6 +46,6 @@ Create a `phpcs.xml.dist` file in your project root with the following contents.
 	<arg name="extensions" value="php" />
 	<config name="testVersion" value="8.2" />
 	<config name="text_domain" value="block-theme,default" />
-	<rule ref="DekodeStrict" />
+	<rule ref="DekodeNoAlignment" />
 </ruleset>
 ```
