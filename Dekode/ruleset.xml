@@ -20,6 +20,7 @@
 		<exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket" />
 		<exclude name="PEAR.Functions.FunctionCallSignature.MultipleArguments" />
 		<exclude name="Universal.Arrays.DisallowShortArraySyntax.Found" />
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax" />
 		<exclude name="Universal.Operators.DisallowShortTernary.Found" />
 	</rule>
 

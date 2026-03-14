@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="DekodeNoAlignment">
+	<description>Dekode No-Alignment Coding Standards — includes the Dekode ruleset with stricter formatting rules.</description>
+
+	<rule ref="Dekode" />
+
+	<!-- Stricter formatting: disallow two or more consecutive spaces inline. -->
+	<rule ref="DekodeNoAlignment.Formatting.DisallowDoubleSpace" />
+
+	<!-- Exclusions -->
+	<rule ref="Generic.Formatting.MultipleStatementAlignment">
+		<exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
+	</rule>
+	<rule ref="WordPress.Arrays.MultipleStatementAlignment">
+		<exclude name="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned" />
+	</rule>
+	<rule ref="Squiz.Commenting.FunctionComment">
+		<exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType" />
+	</rule>
+</ruleset>
