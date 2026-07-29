@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.6.0
+
+- Upgrade to WordPress Coding Standards [3.4.1](https://github.com/WordPress/WordPress-Coding-Standards/releases/tag/3.4.1).
+
 ## 6.5.0
 
 - Add new [DekodeNoAlignment ruleset](https://github.com/DekodeInteraktiv/coding-standards/pull/33).
